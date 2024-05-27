@@ -1,4 +1,5 @@
 import { OrbitControls, Stage } from "@react-three/drei";
+import { Sample } from "./Sample";
 
 export const Element = () => {
   return (
@@ -15,10 +16,12 @@ export const Element = () => {
         environment="city" // pencahayaan seperti di kota
         adjustCamera={3} // jarak dgn camera
       >
-        <mesh castShadow>
+        {/* <mesh castShadow>
           <meshNormalMaterial />
           <boxBufferGeometry />
-        </mesh>
+        </mesh> */}
+
+        <Sample />
       </Stage>
     </>
   );

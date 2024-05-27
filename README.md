@@ -1,6 +1,18 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Setup 3d model:
+
+### 1. Create Model Compoenent
+
+```
+npx gltfjsx ./public/models/s[Model Name] -o ./src/compoenents/[compoenent name].jsx
+```
+
+\*model only .glb or .gltf
+
+### 2. Render in the Element component
+
+### This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 
